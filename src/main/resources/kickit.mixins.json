@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "spite.kickit.mixin",
+  "refmap": "kickit.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinPride",
+    "MixinBzVariantBees",
+    "MixinMalumPride",
+    "MixinMekanismGenderArmor",
+    "MixinToolsGenderArmor",
+    "MixinItemCategory"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
